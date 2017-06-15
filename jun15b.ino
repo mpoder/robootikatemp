@@ -32,11 +32,12 @@ void loop() {
 void blinkLight() {
   blinker = blinker - 1;
   if (blinker <= 0) {
-    blinker = 30;}
+    blinker = 30;
+  }
   if (blinker > 15) {
     digitalWrite(4, HIGH);
-    } else {
+  } else {
     digitalWrite(4, LOW);
-    }
   }
+}
 
